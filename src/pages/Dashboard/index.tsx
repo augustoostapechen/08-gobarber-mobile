@@ -50,6 +50,7 @@ const Dashboard: React.FC = () => {
     },
     [navigate],
   );
+
   return (
     <Container>
       <Header>
