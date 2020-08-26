@@ -62,7 +62,7 @@ const Dashboard: React.FC = () => {
 
         <ProfileButton
           onPress={() => {
-            signOut();
+            navigateToProfile();
           }}
         >
           <UserAvatar source={{ uri: user.avatar_url }} />
